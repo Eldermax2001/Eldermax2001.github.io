@@ -1,0 +1,156 @@
+body {
+    font-family: "Liter", serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    background-image: linear-gradient(to bottom, rgb(241, 242, 243), rgb(143, 143, 145));
+}
+
+span {
+    color: rgb(101, 101, 230);
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+    font-size: 6em;
+    transition: 0.3s ease;
+}
+
+nav {
+    text-align: center;
+    padding: 1em;
+}
+
+nav a {
+    color: rgb(123, 124, 133);
+    font-size: 20px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    text-decoration: none;
+}
+
+nav a:hover, nav a:active {
+    color: rgb(101, 101, 230);
+}
+
+nav li {
+    display: inline;
+    margin: 0 1.5em;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+.data {
+    text-align: left;
+    font-style: italic;
+
+}
+
+.autor {
+    text-align: right;
+    font-style: italic;
+}
+
+article {
+    background-image: linear-gradient(to bottom, rgb(241, 242, 243), rgb(213, 213, 216));
+    padding: 10px 15px 10px 15px;
+    border-radius: 15px;
+    margin-bottom: 3em;
+    margin-top: 3em;
+    box-shadow: 5px 5px 5px 5px rgb(162, 162, 218);
+}
+
+article img {
+    padding-right: 15px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+}
+  
+.title {
+    color: white;
+    font-size: 25px;
+}
+  
+.botao {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+  
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+}
+
+article a {
+    text-decoration: none;
+    font-size: 22px;
+    color: rgb(101, 101, 230);
+}
+  
+.botao:hover{
+    background-color: rgb(101, 101, 230);
+    opacity: 0.7;
+    transition: 0.3s ease;
+}
+
+input, select, textarea {
+    font-family: "Liter", serif;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+input[type=submit] {
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+  
+input[type=submit]:hover {
+    background-color: rgb(101, 101, 230);
+    transition: 0.3s ease;
+}
+  
+.formulario {
+    font-family: "Liter", serif;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+footer {
+    font-family: "Liter", serif;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 2em;
+    background-color: black;
+}
